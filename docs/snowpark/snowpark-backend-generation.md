@@ -1,10 +1,6 @@
 ---
-id: snowpark-backend
+id: snowpark-backend-generation
 ---
-
-# Snowpark Backend
-
-The Morphir **Snowpark** backend generates Scala code that uses the [Snowpark](https://docs.snowflake.com/en/developer-guide/snowpark/scala/index) API .
 
 ## Generation conventions and strategies
 
