@@ -10,7 +10,7 @@ The **Snowpark** backend supports two main code generation strategies:
 - Generating code that manipulates [DataFrame](https://docs.snowflake.com/en/developer-guide/snowpark/scala/working-with-dataframes) expressions
 - Generating "plain" Scala code
 
-The backend identifies a series of patterns for deciding which strategy is used to convert the a function. These pattern apply to the way types and function are defined. 
+The backend identifies a series of patterns for deciding which strategy is used to convert a function. These patterns apply to the way types and function are defined. 
 
 ## Type definition patterns
 
