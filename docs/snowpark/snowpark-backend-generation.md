@@ -29,7 +29,7 @@ Records are classified as "representing a table definition" according to the typ
 - A [Maybe](https://package.elm-lang.org/packages/elm/core/latest/Maybe) type used with a DataFrame compatible type
 - An [alias](https://guide.elm-lang.org/types/type_aliases) of a DataFrame compatible type
 
-An example of one these of records is the following:
+An example of one of these records is the following:
 
 ```elm
 type alias Employee = 
@@ -167,7 +167,7 @@ In this case references to `List Employee` are converted to DataFrames:
 
 ## Custom types
 
-Two patterns are used to process [custom types](https://guide.elm-lang.org/types/custom_types.html). These patterns depend of the presence of parameters for type constructors.
+Two patterns are used to process [custom types](https://guide.elm-lang.org/types/custom_types.html). These patterns depend on the presence of parameters for type constructors.
 
 ### 1. Custom types without data
 

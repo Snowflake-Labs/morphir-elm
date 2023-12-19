@@ -59,9 +59,9 @@ There are programming practices do not adapt easily to DataFrame operations (for
 
 ## Using the generated code
 
-Code generated with this backend could be compiled and packaged into [JAR files](https://docs.oracle.com/javase/8/docs/technotes/guides/jar/jarGuide.html)  using any Scala or Java build tool like [Maven](https://docs.snowflake.com/en/developer-guide/snowpark/scala/setup-other-environments#using-the-snowpark-library-in-a-maven-project) or [sbt](https://docs.snowflake.com/en/developer-guide/snowpark/scala/quickstart-sbt#creating-a-new-scala-project-in-sbt).
+Code generated with this backend could be compiled and packaged into [JAR files](https://docs.oracle.com/javase/8/docs/technotes/guides/jar/jarGuide.html) using any Scala or Java build tool like [Maven](https://docs.snowflake.com/en/developer-guide/snowpark/scala/setup-other-environments#using-the-snowpark-library-in-a-maven-project) or [sbt](https://docs.snowflake.com/en/developer-guide/snowpark/scala/quickstart-sbt#creating-a-new-scala-project-in-sbt).
 
-These packages can then be used to create standalone programs or Snowflake [stored procedures](https://docs.snowflake.com/en/developer-guide/snowpark/scala/creating-sprocs) or [functions](https://docs.snowflake.com/en/developer-guide/snowpark/scala/creating-udfs) . It can also be used to explore code using Jupyter notebooks:
+These packages can then be used to create standalone programs or Snowflake [stored procedures](https://docs.snowflake.com/en/developer-guide/snowpark/scala/creating-sprocs) or [functions](https://docs.snowflake.com/en/developer-guide/snowpark/scala/creating-udfs). It can also be used to explore code using Jupyter notebooks:
 
 ![jupyter notebook scala](sp_jupyter_nb.png)
 
