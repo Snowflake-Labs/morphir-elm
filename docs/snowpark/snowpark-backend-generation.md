@@ -139,7 +139,7 @@ This backend generates the following class for this record definition:
 
 ### Types representing DataFrames
 
-This backend considers lists of "records representing tables" as a [**Snowpark** DataFrame](https://docs.snowflake.com/en/developer-guide/snowpark/scala/working-with-dataframes) . For example:
+This backend considers lists of "records representing tables" as a [**Snowpark** DataFrame](https://docs.snowflake.com/en/developer-guide/snowpark/scala/working-with-dataframes). For example:
 
 
 ```elm
