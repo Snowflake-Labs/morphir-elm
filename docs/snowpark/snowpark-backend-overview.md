@@ -7,7 +7,7 @@ title: Snowpark backend overview
 
 ## Introduction
 
-**Morphir** is a system for capturing business logic in a [technology agnositic manner](https://morphir.finos.org/docs/intro/) . Morphir has an intermediate representation ([Morphir IR](https://morphir.finos.org/docs/morphir-ir)) that is used to store this logic. The [Morphir-elm](https://github.com/finos/morphir-elm) tool provides several backends for transpiling **Morphir-IR** to different languages and platforms.
+**Morphir** is a system for capturing business logic in a [technology agnositic manner](https://morphir.finos.org/docs/intro/). Morphir has an intermediate representation ([Morphir IR](https://morphir.finos.org/docs/morphir-ir)) that is used to store this logic. The [Morphir-elm](https://github.com/finos/morphir-elm) tool provides several backends for transpiling **Morphir-IR** to different languages and platforms.
 
 The Morphir Snowpark backend for **Morphir-elm** generates [Scala](https://www.scala-lang.org/) code that uses the [Snowpark](https://docs.snowflake.com/en/developer-guide/snowpark/scala/index) API to represent operations expressed in **Morphir-IR**. [Snowflake Snowpark](https://docs.snowflake.com/en/developer-guide/snowpark/index) is an API for querying and processing data in a data pipeline.
 

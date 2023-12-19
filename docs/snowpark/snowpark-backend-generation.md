@@ -380,7 +380,7 @@ Notice that language constructs are converted to DataFrame expression. For examp
 
 ### Pattern for functions from values to lists of records
 
-If the function doesn't receive a DataFrame but produces lists of records, the strategy for code generation changes . In this case the pattern assumes that an array of semi-structured objects is being created instead of a DataFrame.
+If the function doesn't receive a DataFrame but produces lists of records, the strategy for code generation changes. In this case the pattern assumes that an array of semi-structured objects is being created instead of a DataFrame.
 
 For example:
 
