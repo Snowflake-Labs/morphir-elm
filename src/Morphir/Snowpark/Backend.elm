@@ -54,6 +54,8 @@ import Set as Set
 type alias Options =
     { decorations : Maybe (SDKDict.Dict NodeID Decode.Value) }
 
+outSourceRoot : List String
+outSourceRoot = ["src", "main", "scala"]
 
 decodeOptions : Decoder Options
 decodeOptions =
@@ -101,7 +103,7 @@ mapPackageDefinition _ packagePath packageDef customizationOptions =
                                 compilationUnit
                                     |> PrettyPrinter.mapCompilationUnit (PrettyPrinter.Options 2 80)
                         in
-                        ( ( compilationUnit.dirPath, compilationUnit.fileName ), fileContent )
+                        ( ( outSourceRoot ++ compilationUnit.dirPath, compilationUnit.fileName ), fileContent )
                     )
                 |> Dict.fromList
 
